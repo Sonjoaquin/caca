@@ -4,7 +4,7 @@
   <title>Control de asistencia</title>
 </head>
 <body>
-  <h1> Control de asistencia</h1>
+  <h1> Control de asistencia Registro de finalización</h1>
   
   <form method="post">
     Escriba su nombre compleo:<br>
