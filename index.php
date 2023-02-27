@@ -19,7 +19,7 @@ if(isset($_POST['textdata']))
 $data=$_POST['textdata'];
 $fp = fopen('data.txt', 'a');
 fwrite($fp, $data);
-fwrite($fp, $fecha_actua.);
+fwrite($fp, $fecha_actual);
 fclose($fp);
 }
 ?>
