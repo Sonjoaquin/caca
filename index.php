@@ -13,12 +13,13 @@
 </body>
 </html>
 <?php
-              
+$fecha_actual = date("d-m-Y h:i:s");
 if(isset($_POST['textdata']))
 {
 $data=$_POST['textdata'];
 $fp = fopen('data.txt', 'a');
 fwrite($fp, $data);
+fwrite($fp, $fecha_actua.);
 fclose($fp);
 }
 ?>
