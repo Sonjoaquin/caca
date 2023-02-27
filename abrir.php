@@ -12,6 +12,7 @@
     Introduzca el número de sesión:<br>
     <input type="text" name="sesion"><br>
     <input type="submit" name="submit">
+    <h2> El navegador le preguntará si quiere abrir ventana emergente</h2>
     
   </form>
 </body>
