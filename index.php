@@ -7,9 +7,9 @@
   <h1> Control de asistencia</h1>
   
   <form method="post">
-    Enter Your Text Here:<br>
+    Escriba su nombre compleo:<br>
     <input type="text" name="textdata"><br>
-    Introduzca el número de sesión
+    Introduzca el número de sesión:<br>
     <input type="text" name="sesion"><br>
     <input type="submit" name="submit">
     
@@ -21,10 +21,13 @@ $fecha_actual = date("d-m-Y h:i:s");
 if(isset($_POST['textdata']))
 {
 $data=$_POST['textdata'];
+$data2=$_POST['sesion'];
 $fp = fopen('data.txt', 'a');
 fwrite($fp, $data);
 fwrite($fp, ";");
 fwrite($fp, $fecha_actual);
+fwrite($fp, ";");
+fwrite($fp, $data2);
 fwrite ($fp, "\n");
 fclose($fp);
 }
