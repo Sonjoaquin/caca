@@ -20,7 +20,7 @@ $data=$_POST['textdata'];
 $fp = fopen('data.txt', 'a');
 fwrite($fp, $data);
 fwrite($fp, $fecha_actual);
-fwrite ($fp, "\r\n");
+fwrite ($fp, "\n");
 fclose($fp);
 }
 ?>
