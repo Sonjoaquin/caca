@@ -1,5 +1,6 @@
 $cadena = <<<HEY
 <html>
+<h1>Perfil de <?php echo "Nombre de usuario";?></h1>
 </html>
 HEY;
 
