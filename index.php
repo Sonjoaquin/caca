@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Store form data in .txt file</title>
+  <title>Control de asistencia</title>
 </head>
 <body>
+  <h1> Control de asistencia</h1>
+  
   <form method="post">
     Enter Your Text Here:<br>
     <input type="text" name="textdata"><br>
+    Introduzca el número de sesión
+    <input type="text" name="sesion"><br>
     <input type="submit" name="submit">
     
   </form>
